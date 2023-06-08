@@ -141,22 +141,47 @@ public class LootGenerator {
         return f;
     }
 
+    /**
+     * TODO: Generates a potion.
+     * @param chestTier Tier of the chest found.
+     * @param rollBonus Bonus to the loot roll.
+     * @return A Potion item.
+     */
     public static Item potGen(int chestTier, int rollBonus){
         Item f = new Item();
 
         return f;
     }
 
+    /**
+     * TODO: Generates a weapon found as loot.
+     * @param chestTier Tier of the chest found.
+     * @param rollBonus Bonus to the loot roll.
+     * @return A weapon item representing found loot.
+     */
     public static Weapon WeaponGen(int chestTier, int rollBonus){
         Weapon n = new Weapon();
         return n;
     }
 
+    /**
+     * TODO: Generate armor found as loot.
+     * @param chestTier Tier of the chest found.
+     * @param rollBonus Bonus to the loot roll.
+     * @return An armor item representing found loot.
+     */
     public static Armor ArmorGen(int chestTier, int rollBonus) {
         Armor f = new Armor();
         return f;
     }
 
+    /**
+     * TODO: Generate a trinket found as loot.
+     * Note: Trinkets don't really do anything, and are effectively flavorful valuable items.
+     * @param chestTier Tier of the chest found.
+     * @param rollBonus Bonus to the loot roll.
+     * @return A generic item that represents the trinket found.
+     */
     public static Item TrinketGen(int chestTier, int rollBonus) {
         Item f = new Item();
 
